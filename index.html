@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <!-- link the CSS files and bootstrap-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+   
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Entire Left column of the screen-->
+            <div class="col-sm-6">
+                <!--header -->
+                <div class="row">
+                    <div class="col-sm-8">
+                        <header>
+                            <h1>crystals collector!</h1>
+                        </header>
+                    </div>
+                </div>
+                <!--Rules for the game-->
+                <div id="instructions">
+                    <p>You will be given a random nuber at the start of the game.</p>
+                    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points
+                        to your taoal score. </p>
+                    <p>You win the fame by matching your total score to random number, you lose the game if your total
+                        score goes above the random number.</p>
+                    <p>The value of each crystal is is hidden from you until you click on it</p>
+                    <p>Each time when the game starts, the game will change the value of each crystal</p>
+
+
+                </div>
+                <!--section for the computer genrates score and records wins and losees-->
+                <div class="row">
+
+                    <div class="col-sm-4" id="total-random">
+
+                    </div>
+                    <div class="ccol-sm-2" id="game-outcome">
+                        <p>Wins: <span id="Wins"></span></p>
+                        <p > Losses: <span id="Losses"></span> </p>
+                    </div>
+
+                </div>
+                <!--images for the crystals-->
+                <div class="row " id="crystals-images">
+                    <div class=" col-sm-2" id="red"><img src="assets/images/red.png" alt="red crystal"></div>
+                    <div class=" col-sm-2" id="blue"><img src="assets/images/blue.png" alt="blue crystal"></div>
+                    <div class=" col-sm-2" id="yellow"><img src="assets/images/yellow.png" alt="yelow crystal"></div>
+                    <div class=" col-sm-2" id="green"><img src="assets/images/green.png" alt="green crystal"></div>
+                </div>
+                <!--Display scores after selected crystals-->
+                <div class="row">
+                    <div class="col-sm-8 ">
+                        <p id="lister">Your total score is:</p>
+                        <p id="added-score"></p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+ <!--link the jquery library and javaScript file-->
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+ crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
