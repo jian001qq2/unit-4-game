@@ -5,72 +5,79 @@ body {
     background-image: url("../images/ background .jpg");
     background-size: cover;
 }
+
 /*Styler for the header display the name of the game*/
 header {
-   height: 100px;
-   width: 340px;
-   padding-top: 20px;
-   padding-left: 10px;
-   margin-bottom: 20px;
+    height: 100px;
+    width: 340px;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
     color: white;
     background: orange;
     opacity: 0.9;
 }
+
 /* Style for the instructionn for the game*/
 #instructions {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: green;
-background: lightblue;
-font-weight: bold;
-font-size: 25px;
-text-align: left;
-padding-left:10px;
-opacity: 0.9;
-margin-bottom: 10px;
-overflow: auto; /* To prevent the text out of the block */
+    background: lightblue;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 10px;
+    opacity: 0.9;
+    margin-bottom: 10px;
+    overflow: auto;
+    /* To prevent the text out of the block */
 }
+
 /* images of crystals*/
-img{
-    margin-top:10px;
-    width: 100px; 
+img {
+    margin-top: 10px;
+    width: 100px;
     height: 80px;
     background: gold;
     display: block;
 }
 
 /* the style of computer generated number*/
-#total-random{
+#total-random {
     height: 100px;
     background: rgb(41, 175, 14);
     margin-left: 17px;
     font-size: 30px;
     text-align: center;
     padding-top: 30px;
-    }
+}
+
 /* Style for display wins and losses of the game*/
-    #game-outcome{
+#game-outcome {
     padding-top: 20px;
     width: 100px;
-      height: 100px;  
-      margin-left: 20px;
-      background: gold;
-      padding-left: 10px;
-    }
-/* style for the adding scores of the secret numbers of each crystal*/
-#added-score{
-width: 340px;
-height: 100px;
-background:lightskyblue;
-text-align: center;
-padding-top: 20px;
-font-size: 30px;
+    height: 100px;
+    margin-left: 20px;
+    background: gold;
+    padding-left: 10px;
 }
+
+/* style for the adding scores of the secret numbers of each crystal*/
+#added-score {
+    width: 340px;
+    height: 100px;
+    background: lightskyblue;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
 /* style for the line to show the user "Your total score is:"*/
-#lister{
-display:block;
-width: 340px;
-margin-top:20px;
-background: lightskyblue;
-font-weight: bold;
-padding-left: 10px;
+#lister {
+    display: block;
+    width: 340px;
+    margin-top: 20px;
+    background: lightskyblue;
+    font-weight: bold;
+    padding-left: 10px;
 }
